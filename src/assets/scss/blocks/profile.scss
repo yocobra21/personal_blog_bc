@@ -1,0 +1,29 @@
+.profile {
+
+}
+
+.profile__avatar {
+  width: 10rem;
+  height: 10rem;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 7px 20px rgba(#000, .25);
+  border: 2px solid $white;
+  margin: 0 auto;
+  margin-top: -50px;
+  z-index: 2000;
+  margin-bottom: 19px;
+}
+
+.profile__name {
+  font-size: 1.8rem;
+  text-align: center;
+  color: $white;
+}
+
+.profile__prof {
+  font-size: 1.4rem;
+  text-align: center;
+  color: $gray-profile;
+  font-weight: 300;
+}
