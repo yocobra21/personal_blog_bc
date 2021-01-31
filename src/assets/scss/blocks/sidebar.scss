@@ -7,8 +7,6 @@
   z-index: $z-index-sidebar;
   background-color: $primary;
   box-shadow: 0 4px 4px rgba(#000, 0.25);
-
-
 }
 
 .sidebar__header {
@@ -20,4 +18,15 @@
     height: 100%;
     object-fit: cover;
   }
+}
+
+.sidebar__content {
+  padding: 0 2rem;
+  margin-top: -5rem;
+}
+
+.sidebar__footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
 }
