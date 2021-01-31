@@ -6,7 +6,7 @@
   width: calc(100% - #{$sidebar-width});
   background: #0d0d0d;
   z-index: $z-index-header;
-  box-shadow: 0 2px 10px rgba(#000, .15);
+  box-shadow: 0 2px 10px rgba($black, .15);
 }
 
 .header__left {

@@ -1,4 +1,21 @@
 .search {
-  min-width: 21rem;;
+  max-width: 21rem;
   background-color: $primary;
+  width: 100%;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  background: transparent;
+
+  display: block;
+  padding: 1.2rem 2rem;
+  width: 100%;
+  color: $white;
+
+  &::placeholder {
+    color: rgba($white, 0.4);
+  }
 }
